@@ -152,6 +152,7 @@ const Features = () => (
           />
         </BentoTilt>
 
+        
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="videos/feature-4.mp4"
@@ -165,14 +166,20 @@ const Features = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_2">
-          <div className="flex size-full flex-col justify-between bg-green-300 p-5">
-            <h1 className="bento-title special-font max-w-64 text-blue">
-              Delivery co<b>m</b>ing s<b>o</b>on.
-            </h1>
-
-            <TiLocationArrow className="m-5 scale-[5] self-end" />
-          </div>
+        <BentoTilt className="bento-tilt_2 relative">
+          <BentoTilt className="bento-tilt_2 relative">
+            <img
+              className="absolute top-0 left-0 w-full h-full object-cover"
+              src="img/feature-6.webp"
+              alt="Background"
+            />
+            <div className="relative flex size-full flex-col justify-between p-5">
+              <h1 className="bento-title special-font max-w-64 text-blue">
+                Delivery No<b>w</b> Avail<b>a</b>ble.
+              </h1>
+              <TiLocationArrow className="m-5 scale-[5] self-end" />
+            </div>
+          </BentoTilt>
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_2">

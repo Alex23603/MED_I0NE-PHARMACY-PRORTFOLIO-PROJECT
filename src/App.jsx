@@ -1,3 +1,4 @@
+import React from 'react';
 import About from "./components/About";
 import Hero from "./components/Hero";
 import NavBar from "./components/Navbar";
@@ -5,6 +6,7 @@ import Features from "./components/Features";
 import Story from "./components/Story";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Chatbot from './Chatbot';
 
 function App() {
   return (
@@ -16,9 +18,12 @@ function App() {
       <Story />
       <Contact />
       <Footer />
+      <div className="App">
+        <h1>Welcome to MEDI_0NE Pharmacy</h1>
+        <Chatbot />
+      </div>
     </main>
   );
 }
 
 export default App;
-// Compare this snippet from src/components/Footer.jsx:
