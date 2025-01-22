@@ -35,10 +35,10 @@ const Chatbot = () => {
   
   };
   return (
-    <div>
+    <div id="watch-trailer">
       {/* Floating Button */}
       <button
-        className="fixed bottom-4 right-4 bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition"
+        className="fixed bottom-4 right-4 bg-blue-800 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 glow transition"
         onClick={() => setIsOpen(!isOpen)}
       >
         Chat
@@ -47,7 +47,7 @@ const Chatbot = () => {
       {/* Chat Interface */}
       {isOpen && (
         <div className="fixed bottom-16 right-4 w-80 bg-white border border-gray-300 rounded-lg shadow-lg overflow-hidden">
-          <div className="bg-blue-500 text-white p-2 text-center font-bold">Medi_bot</div>
+          <div className="bg-blue-900 text-white p-2 text-center font-bold">Chat With Us</div>
           <div className="chatbot-messages p-2 max-h-60 overflow-y-auto">
             {messages.map((msg, index) => (
               <div key={index} className={`mb-2 ${msg.sender === 'user' ? 'text-right' : 'text-left'}`}>
@@ -60,10 +60,10 @@ const Chatbot = () => {
               type="text"
               value={input}
               onChange={handleInputChange}
-              placeholder="Talk to our bot..."
+              placeholder="Talk to Us on live chat..."
               className="flex-1 border border-gray-300 p-2 rounded"
             />
-            <button onClick={handleSubmit} className="ml-2 bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition">
+            <button onClick={handleSubmit} className="ml-2 bg-blue-900 text-white p-2 rounded hover:bg-blue-700 transition">
               Send
             </button>
           </div>

@@ -60,7 +60,7 @@ Name: Alex Mureti
 
 Role: Front-end Developer
 
-Contact: [Insert preferred contact information]
+Contact: [EMAIL:alexx24603@gmail.com]
 
 Acknowledgments
 

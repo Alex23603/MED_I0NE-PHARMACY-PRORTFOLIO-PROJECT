@@ -10,7 +10,7 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <footer className="w-screen bg-[#229d4f] py-4 text-green-50">
+    <footer id="Footer" className="w-screen bg-[#229d4f] py-4 text-green-50">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <p className="text-center text-sm font-light md:text-left">
           ©Medi0ne 2024. All rights reserved

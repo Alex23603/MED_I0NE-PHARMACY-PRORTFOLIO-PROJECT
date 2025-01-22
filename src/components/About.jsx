@@ -37,22 +37,6 @@ const About = () => {
           title="Your Health is Your Wealth"
           containerClass="mt-5 !text-black text-center"
         />
-
-        <div className="about-subtext text-center">
-          <p className="text-lg font-semibold text-green-800">
-            Located in Nanyuki at Peak Place, Ground Floor
-          </p>
-          <p className="text-md text-green-700">
-            MediOne Pharmacy is dedicated to providing affordable medicine for all. 
-            Our qualified pharmacists are here to ensure your prescriptions are handled with care and precision.
-          </p>
-          <p className="text-md text-green-600">
-            Contact us via phone or WhatsApp at <b>0728 079 401</b> for any assistance.
-          </p>
-          <p className="text-md text-green-600">
-            We prioritize your health and well-being. Visit us today and experience exceptional service tailored to your needs.
-          </p>
-        </div>
       </div>
 
       <div className="h-dvh w-screen" id="clip">

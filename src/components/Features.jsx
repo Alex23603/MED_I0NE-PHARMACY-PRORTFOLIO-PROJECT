@@ -99,13 +99,13 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 };
 
 const Features = () => (
-  <section className="bg-white pb-52">
+  <section className="bg-white pb-52" id="services">
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-green-500">
           Offering best medical advice and services for a healthier lifestyle.
         </p>
-        <p className="max-w-md font-circular-web text-lg text-green-400 opacity-50">
+        <p className="max-w-md font-circular-web text-lg text-green-500 opacity-50">
           Keep your family healthy and happy with our services.
           Get vaccinated today for a better tomorrow.
           Our products and services are designed to help you live a healthier, happier, and more balanced life.
@@ -125,8 +125,8 @@ const Features = () => (
         />
       </BentoTilt>
 
-      <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
-        <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+      <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7" id="products">
+        <BentoTilt id="services" className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/feature-2.mp4"
             title={
@@ -173,7 +173,7 @@ const Features = () => (
               src="img/feature-6.webp"
               alt="Background"
             />
-            <div className="relative flex size-full flex-col justify-between p-5">
+            <div className="relative flex size-full flex-col text-white justify-between p-5">
               <h1 className="bento-title special-font max-w-64 text-blue">
                 Delivery No<b>w</b> Avail<b>a</b>ble.
               </h1>

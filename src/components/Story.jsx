@@ -106,7 +106,7 @@ const FloatingImage = () => {
         </div>
 
         {/* Description & Call-to-Action */}
-        <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
+        <div id="products"  className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-green-500 md:text-start">
             Check blood pressure and sugar levels with us.
@@ -117,6 +117,7 @@ const FloatingImage = () => {
             </p>
 
             <Button
+              href="footer"
               id="realm-btn"
               title="Book an Appointment"
               containerClass="mt-5"

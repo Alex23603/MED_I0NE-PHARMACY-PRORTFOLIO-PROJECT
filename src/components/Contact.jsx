@@ -9,7 +9,7 @@ const ImageClipBox = ({ src, clipClass }) => (
 
 const Contact = () => {
   return (
-    <div id="contact" className="my-20 min-h-96 w-screen px-10">
+    <div id="contact-us" className="my-20 min-h-96 w-screen px-10">
       <div className="relative rounded-lg bg-blue-400 py-24 text-green-300 sm:overflow-hidden">
         <div className="absolute -left-20 top-0 hidden h-full w-72 overflow-hidden sm:block lg:left-20 lg:w-96">
           <ImageClipBox
@@ -43,7 +43,7 @@ const Contact = () => {
             className="special-font !md:text-[6.2rem] w-full font-general !text-5xl !font-black !leading-[.9]"
           />
 
-          <Button title="contact us" containerClass="mt-10 cursor-pointer" />
+          <Button id="contact-us" title="contact us" containerClass="mt-10 cursor-pointer" />
         </div>
       </div>
     </div>

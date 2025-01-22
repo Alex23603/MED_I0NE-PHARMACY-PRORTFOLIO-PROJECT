@@ -1,4 +1,3 @@
-import React from 'react';
 import About from "./components/About";
 import Hero from "./components/Hero";
 import NavBar from "./components/Navbar";
@@ -10,7 +9,7 @@ import Chatbot from './Chatbot';
 
 function App() {
   return (
-    <main className="relative min-h-screen w-screen overflow-x-hidden bg-blue-500">
+    <main className="relative min-h-screen w-screen overflow-x-hidden bg-blue-800">
       <NavBar />
       <Hero />
       <About />
@@ -18,7 +17,7 @@ function App() {
       <Story />
       <Contact />
       <Footer />
-      <div className="App">
+      <div className="App" >
         <h1>Welcome to MEDI_0NE Pharmacy</h1>
         <Chatbot />
       </div>
