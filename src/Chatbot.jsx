@@ -21,7 +21,7 @@ const Chatbot = () => {
         messages: [{ role: 'user', content: input }],
       }, {
         headers: {
-          'Authorization': `Bearer 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`, // Securely handle API key
+          'Authorization': `Bearer , // Securely handle API key
         },
       });
   
